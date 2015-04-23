@@ -1,0 +1,15 @@
+wheel==0.23.0
+numpy
+matplotlib
+seaborn
+pandas
+scipy
+sympy
+pyzmq
+pytz
+jinja2
+ipython
+networkx
+scikit-image
+scikit-learn
+
