@@ -16,9 +16,10 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
 	'numpy', 'matplotlib', 'seaborn', 'pandas', 'scipy', 'sympy',
-	'pyzmq', 'pytz', 'jinja2', 'ipython', 'networkx',
-	'scikit-image', 'scikit-learn',
+	'pyzmq', 'pytz', 'jinja2', 'ipython', 'tornado', 'jsonschema',
+	'networkx', 'scikit-image', 'scikit-learn',
 ]
+requirements.reverse()
 
 test_requirements = [
     # TODO: put package test requirements here
@@ -26,7 +27,7 @@ test_requirements = [
 
 setup(
     name='pylab',
-    version='0.1.0',
+    version='0.1.2',
     description="Data science meta-package",
     long_description=readme + '\n\n' + history,
     author="Javi Palanca",

@@ -8,6 +8,8 @@ sympy
 pyzmq
 pytz
 jinja2
+tornado
+jsonschema
 ipython
 networkx
 scikit-image
