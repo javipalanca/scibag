@@ -27,7 +27,7 @@ test_requirements = [
 
 setup(
     name='pylab',
-    version='0.1.2',
+    version='0.1.4',
     description="Data science meta-package",
     long_description=readme + '\n\n' + history,
     author="Javi Palanca",
@@ -44,7 +44,7 @@ setup(
     zip_safe=False,
     keywords='pylab',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 7 - Inactive',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
