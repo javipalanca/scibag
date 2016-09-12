@@ -2,6 +2,14 @@
 
 History
 -------
+
+0.1.4 (2016-05-24)
+---------------------
+
+* Dropped wheel dependency (#2)
+* fixed version numbers throughout the project (#3)
+* marked package as "inactive" to prepare for the name transition
+
 0.1.3 (2015-04-23)
 ---------------------
 

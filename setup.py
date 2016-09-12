@@ -44,7 +44,7 @@ setup(
     zip_safe=False,
     keywords='scibag',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 7 - Inactive',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
