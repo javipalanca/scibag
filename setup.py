@@ -26,23 +26,23 @@ test_requirements = [
 ]
 
 setup(
-    name='pylab',
-    version='0.1.3',
+    name='scibag',
+    version='0.2.0',
     description="Data science meta-package",
     long_description=readme + '\n\n' + history,
     author="Javi Palanca",
     author_email='jpalanca@gmail.com',
-    url='https://github.com/javipalanca/pylab',
+    url='https://github.com/javipalanca/scibag',
     packages=[
-        'pylab',
+        'scibag',
     ],
-    package_dir={'pylab':
-                 'pylab'},
+    package_dir={'scibag':
+                 'scibag'},
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
-    keywords='pylab',
+    keywords='scibag',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
